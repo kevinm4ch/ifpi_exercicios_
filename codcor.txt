@@ -1,0 +1,8 @@
+lembrar de mudar a cor das pastas do vscode
+    isso é possivel pela extensão material icon theme
+
+comando ctrl + shift + p 
+
+material icon - Change Folder Color
+
+adicionar ("material-icon-theme.folders.color": "#988bc7") ao settings.json do vscode
