@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Automóveis</title>
+    <style>
+        table{
+            width: 60%;
+            margin: 0 20%;
+        }
+        body{
+            font: 15px Arial, sans-serif;
+        }
+        td, th{
+            background-color: #dedfde;
+            padding: 5px;
+        }
+        thead th{
+            background-color: #d6dfef;
+        }
+        .valores{
+            text-align: right;
+        }
+        tfoot{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--Atividade 13 - 20/03/2024-->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Vendas de Automóveis no Varejo por modelo</th>
+            </tr>
+            <tr>
+                <th>Fabricante</th>
+                <th>Marca (incluindo todos os modelos e categorias)</th>
+                <th class="valores">1995</th>
+                <th class="valores">1996</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Fiat</th>
+                <td>Tempra</td>
+                <td class="valores">12.345</td>
+                <td class="valores">15.670</td>
+            </tr>
+            <tr>
+                <td>Uno</td>
+                <td class="valores">101.275</td>
+                <td class="valores">105.692</td>
+            </tr>
+            <tr>
+                <th>Ford</th>
+                <td>Fiesta</td>
+                <td class="valores">54.888</td>
+                <td class="valores">63.505</td>
+            </tr>
+            <tr>
+                <th rowspan="3">General Motors</th>
+                <td>Corsa</td>
+                <td class="valores">84.163</td>
+                <td class="valores">85.115</td>
+            </tr>
+            <tr>
+                <td>Monza</td>
+                <td class="valores">24.732</td>
+                <td class="valores">19.781</td>
+            </tr>
+            <tr>
+                <td>Vectra</td>
+                <td class="valores">14.343</td>
+                <td class="valores">15.128</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Volkswagen</th>
+                <td>Gol</td>
+                <td class="valores">122.330</td>
+                <td class="valores">129.782</td>
+            </tr>
+            <tr>
+                <td>Parati</td>
+                <td class="valores">22.343</td>
+                <td class="valores">19.942</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"> &copy; Kevin Machado - ADS 2024</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
